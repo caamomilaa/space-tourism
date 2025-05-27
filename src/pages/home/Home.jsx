@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { HOME_INFO } from '../../constants/home-info';
 
 const Home = () => {

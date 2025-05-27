@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Tabs from '../components/tabs/destination/DestinationTabs';
-import { DESTINATIONS_INFO } from '../constants/destination/destination-info';
-import { TABS, TABS_INFO } from '../constants/destination/destinationTabs';
+import Tabs from '../../components/tabs/destination/DestinationTabs';
+import { DESTINATIONS_INFO } from '../../constants/destination/destination-info';
+import { TABS, TABS_INFO } from '../../constants/destination/destinationTabs';
 
 const Destination = () => {
   const [activeTab, setActiveTab] = useState(TABS_INFO.MOON);
